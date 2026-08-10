@@ -17,5 +17,4 @@ This repository contains my practice and learning exercises with **CP2K**, focus
 * **Python** — input-file manipulation and automation
 * **Git / GitHub** — version control and documentation
 
-This repository is primarily a **learning record**, and the calculations are intended for practice.
 
