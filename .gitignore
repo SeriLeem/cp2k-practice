@@ -1,3 +1,5 @@
+
 .DS_Store
 *.wfn
+*.wfn.bak-*
 *_backup.inp
