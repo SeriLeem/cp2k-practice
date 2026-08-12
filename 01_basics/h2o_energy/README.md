@@ -18,6 +18,8 @@ This repository contains my practice and learning exercises with **CP2K**, focus
 ## Energy Curve
 
 ![H₂O potential energy curve](Figure_1.png)
+The energy reaches a minimum at approximately 1.0Angstrom, indicating the most energetically favorable bond length within the range sampled.
+According to the NIST CCCBDB data, experimental equilibrium distance between O and H is about 0.9578 Angstrom.
 
 ## Tools
 
