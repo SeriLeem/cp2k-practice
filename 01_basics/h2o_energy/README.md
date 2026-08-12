@@ -15,6 +15,10 @@ This repository contains my practice and learning exercises with **CP2K**, focus
 - Visualized the relationship between O–H bond distance and molecular energy using **Matplotlib**
 - Practiced organizing computational inputs, outputs, scripts, and generated results into a reproducible workflow
 
+## Energy Curve
+
+![H₂O potential energy curve](Figure_1.png)
+
 ## Tools
 
 - **CP2K** — electronic structure calculations
