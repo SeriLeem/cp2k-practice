@@ -1,0 +1,57 @@
+# CIF file created by CP2K particle_methods:write_final_structure
+data_H2O_POTENTIAL
+_audit_creation_date                  2026-08-13
+_audit_creation_method
+;
+CP2K version 2026.2 (revision git:c92cc08)
+Project name H2O_POTENTIAL
+submitted by seri@Seris-MacBook-Pro.local
+processed in /Users/seri/Documents/cp2k-practice/01_basics/h2o_energy
+generated at 2026-08-13 08:53:17.086
+  -*WARNING*-  -*WARNING*-  -*WARNING*-  -*WARNING*-  -*WARNING*-  -*WARNING*- 
+ WARNING| the lines enclosed in between -*WARNING*- contain metadata
+ WARNING| provided in a tentative format for the newly implemented
+ WARNING| CIF output from CP2K version 2026.2, which may be unstable
+ WARNING| and subject to overhaul in a future release. Contact the
+ WARNING| developers in case a stabilized format is needed for some
+ WARNING| downstream CIF parser with text pattern matchers (regexp).
+ - Optimization type: GEO_OPT
+ - Optimization converged: TRUE
+ - Requested initial cell symmetry: NONE
+ - Cell is numerically orthorhombic: TRUE
+ - Periodicity of cell: T T T
+ - Cell is subject to optimization: FALSE
+ - Final cell vectors A, B, C by rows [angstrom]:
+         10.0000000000        0.0000000000        0.0000000000
+          0.0000000000       10.0000000000        0.0000000000
+          0.0000000000        0.0000000000       10.0000000000
+ -*WARNING*- -*WARNING*- -*WARNING*- -*WARNING*- -*WARNING*- -*WARNING*- 
+;
+
+_symmetry_space_group_name_H-M             'P 1'
+_cell_length_a                       10.00000000
+_cell_length_b                       10.00000000
+_cell_length_c                       10.00000000
+_cell_angle_alpha                    90.00000000
+_cell_angle_beta                     90.00000000
+_cell_angle_gamma                    90.00000000
+_symmetry_Int_Tables_number                    1
+_chemical_formula_structural       'O1 H2'
+_chemical_formula_sum              'O1 H2'
+_cell_volume                       1000.00000000
+_cell_formula_units_Z                          1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  O    O1       1    0.00450214    0.00381961    0.00397644    1.00
+  H    H2       1    0.10095540    0.99712637    0.99579370    1.00
+  H    H3       1    0.97079436    0.95384695    0.92795950    1.00

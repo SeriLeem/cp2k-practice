@@ -3,3 +3,9 @@
 *.wfn
 *.wfn.bak-*
 *_backup.inp
+*.wfn
+*.wfn.bak-*
+*.restart
+*.restart.bak-*
+*.Hessian
+*.save
