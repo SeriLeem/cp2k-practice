@@ -18,10 +18,10 @@
  DBCSR| Split modifier for TAS multiplication algorithm                  1.0E+00 (U)
 
 
-  **** **** ******  **  PROGRAM STARTED AT               2026-08-14 13:16:57.293
+  **** **** ******  **  PROGRAM STARTED AT               2026-08-19 16:54:49.976
  ***** ** ***  *** **   PROGRAM STARTED ON               Seris-MacBook-Pro.local
  **    ****   ******    PROGRAM STARTED BY                                  seri
- ***** **    ** ** **   PROGRAM PROCESS ID                                  6738
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 20650
   **** **  *******  **  PROGRAM STARTED IN /Users/seri/Documents/cp2k-practice/0
                                            1_basics/h2o_geometry_analysis
 
@@ -622,8 +622,8 @@
 
   Overlap energy of the core charge distribution:               0.00000004248966
   Self energy of the core charge distribution:                -44.34715499673765
-  Core Hamiltonian energy:                                     12.87700273507198
-  Hartree energy:                                              18.47064511568638
+  Core Hamiltonian energy:                                     12.87700273507199
+  Hartree energy:                                              18.47064511568637
   Exchange-correlation energy:                                 -4.22026847674633
 
   Total energy:                                               -17.21977558023596
@@ -650,7 +650,7 @@
   Total Charge                                                            0.011
  !-----------------------------------------------------------------------------!
 
- ENERGY| Total FORCE_EVAL ( QS ) energy [hartree]            -17.219775580235957
+ ENERGY| Total FORCE_EVAL ( QS ) energy [hartree]            -17.219775580235964
 
  -------------------------------------------------------------------------------
  -                                                                             -
@@ -833,55 +833,56 @@
  -------------------------------------------------------------------------------
  SUBROUTINE                       CALLS  ASD         SELF TIME        TOTAL TIME
                                 MAXIMUM       AVERAGE  MAXIMUM  AVERAGE  MAXIMUM
- CP2K                                 1  1.0    0.014    0.014    2.168    2.168
- qs_energies                          1  2.0    0.003    0.003    1.972    1.972
- scf_env_do_scf                       1  3.0    0.000    0.000    1.857    1.857
- scf_env_do_scf_inner_loop           10  4.0    0.001    0.001    1.856    1.856
- qs_ks_update_qs_env                 10  5.0    0.000    0.000    1.510    1.510
- rebuild_ks_matrix                   10  6.0    0.000    0.000    1.509    1.509
- qs_ks_build_kohn_sham_matrix        10  7.0    0.003    0.003    1.509    1.509
- qs_vxc_create                       10  8.0    0.001    0.001    1.119    1.119
- xc_vxc_pw_create                    10  9.0    0.058    0.058    1.118    1.118
- fft_wrap_pw1pw2                    176 10.2    0.001    0.001    0.951    0.951
- fft_wrap_pw1pw2_140                113 11.6    0.016    0.016    0.906    0.906
- xc_rho_set_and_dset_create          10 10.0    0.022    0.022    0.661    0.661
- xc_pw_derive                        60 11.0    0.000    0.000    0.603    0.603
- fft3d_s                            177 12.1    0.599    0.599    0.601    0.601
- xc_pw_divergence                    10 10.0    0.000    0.000    0.388    0.388
- qs_rho_update_rho_low               11  5.0    0.000    0.000    0.362    0.362
- calculate_rho_elec                  11  6.0    0.051    0.051    0.362    0.362
- xc_functional_eval                  10 11.0    0.000    0.000    0.302    0.302
- pbe_lda_eval                        10 12.0    0.302    0.302    0.302    0.302
- density_rs2pw                       11  7.0    0.001    0.001    0.231    0.231
- pw_scatter_s                        91 12.6    0.160    0.160    0.160    0.160
- qs_init_subsys                       1  2.0    0.005    0.005    0.156    0.156
- pw_poisson_solve                    10  8.0    0.000    0.000    0.155    0.155
- qs_env_setup                         1  3.0    0.001    0.001    0.147    0.147
- qs_env_rebuild_pw_env                2  3.5    0.001    0.001    0.146    0.146
- pw_env_rebuild                       1  5.0    0.003    0.003    0.145    0.145
- pw_grid_setup                        4  6.0    0.000    0.000    0.142    0.142
- pw_grid_setup_internal               4  7.0    0.003    0.003    0.142    0.142
- sum_up_and_integrate                10  8.0    0.000    0.000    0.130    0.130
- pw_grid_sort                         4  8.0    0.091    0.091    0.126    0.126
- pw_derive                           90 11.3    0.126    0.126    0.126    0.126
- integrate_v_rspace                  10  9.0    0.001    0.001    0.124    0.124
- potential_pw2rs                     10 10.0    0.001    0.001    0.105    0.105
- pw_gather_s                         85 11.7    0.103    0.103    0.103    0.103
- pw_copy                            150 10.5    0.102    0.102    0.102    0.102
- grid_collocate_task_list            11  7.0    0.081    0.081    0.081    0.081
- init_scf_run                         1  3.0    0.001    0.001    0.073    0.073
- pw_poisson_set                      11  8.7    0.000    0.000    0.071    0.071
- scf_env_initial_rho_setup            1  4.0    0.000    0.000    0.067    0.067
- pw_axpy                            104  9.2    0.057    0.057    0.057    0.057
- pw_integral_ab_c1d_c1d_gs           10  9.0    0.056    0.056    0.056    0.056
+ CP2K                                 1  1.0    0.012    0.012    2.039    2.039
+ qs_energies                          1  2.0    0.002    0.002    1.848    1.848
+ scf_env_do_scf                       1  3.0    0.000    0.000    1.739    1.739
+ scf_env_do_scf_inner_loop           10  4.0    0.002    0.002    1.739    1.739
+ qs_ks_update_qs_env                 10  5.0    0.000    0.000    1.402    1.402
+ rebuild_ks_matrix                   10  6.0    0.000    0.000    1.401    1.401
+ qs_ks_build_kohn_sham_matrix        10  7.0    0.002    0.002    1.401    1.401
+ qs_vxc_create                       10  8.0    0.001    0.001    1.028    1.028
+ xc_vxc_pw_create                    10  9.0    0.055    0.055    1.027    1.027
+ fft_wrap_pw1pw2                    176 10.2    0.001    0.001    0.859    0.859
+ fft_wrap_pw1pw2_140                113 11.6    0.018    0.018    0.821    0.821
+ xc_rho_set_and_dset_create          10 10.0    0.020    0.020    0.598    0.598
+ fft3d_s                            177 12.1    0.539    0.539    0.541    0.541
+ xc_pw_derive                        60 11.0    0.000    0.000    0.535    0.535
+ xc_pw_divergence                    10 10.0    0.000    0.000    0.362    0.362
+ qs_rho_update_rho_low               11  5.0    0.000    0.000    0.342    0.342
+ calculate_rho_elec                  11  6.0    0.049    0.049    0.342    0.342
+ xc_functional_eval                  10 11.0    0.000    0.000    0.288    0.288
+ pbe_lda_eval                        10 12.0    0.288    0.288    0.288    0.288
+ density_rs2pw                       11  7.0    0.000    0.000    0.214    0.214
+ qs_init_subsys                       1  2.0    0.005    0.005    0.154    0.154
+ pw_poisson_solve                    10  8.0    0.000    0.000    0.150    0.150
+ qs_env_setup                         1  3.0    0.001    0.001    0.146    0.146
+ qs_env_rebuild_pw_env                2  3.5    0.000    0.000    0.145    0.145
+ pw_env_rebuild                       1  5.0    0.003    0.003    0.144    0.144
+ pw_grid_setup                        4  6.0    0.000    0.000    0.141    0.141
+ pw_grid_setup_internal               4  7.0    0.003    0.003    0.141    0.141
+ pw_scatter_s                        91 12.6    0.137    0.137    0.137    0.137
+ sum_up_and_integrate                10  8.0    0.000    0.000    0.129    0.129
+ pw_grid_sort                         4  8.0    0.089    0.089    0.125    0.125
+ pw_derive                           90 11.3    0.124    0.124    0.124    0.124
+ integrate_v_rspace                  10  9.0    0.001    0.001    0.123    0.123
+ potential_pw2rs                     10 10.0    0.001    0.001    0.104    0.104
+ pw_copy                            150 10.5    0.097    0.097    0.097    0.097
+ pw_gather_s                         85 11.7    0.094    0.094    0.094    0.094
+ grid_collocate_task_list            11  7.0    0.079    0.079    0.079    0.079
+ pw_poisson_set                      11  8.7    0.000    0.000    0.070    0.070
+ init_scf_run                         1  3.0    0.000    0.000    0.064    0.064
+ scf_env_initial_rho_setup            1  4.0    0.000    0.000    0.058    0.058
+ pw_axpy                            104  9.2    0.055    0.055    0.055    0.055
+ pw_integral_ab_c1d_c1d_gs           10  9.0    0.054    0.054    0.054    0.054
+ qs_scf_new_mos                      10  5.0    0.000    0.000    0.042    0.042
  -------------------------------------------------------------------------------
 
  The number of warnings for this run is : 0
  
  -------------------------------------------------------------------------------
-  **** **** ******  **  PROGRAM ENDED AT                 2026-08-14 13:16:59.653
+  **** **** ******  **  PROGRAM ENDED AT                 2026-08-19 16:54:52.174
  ***** ** ***  *** **   PROGRAM RAN ON                   Seris-MacBook-Pro.local
  **    ****   ******    PROGRAM RAN BY                                      seri
- ***** **    ** ** **   PROGRAM PROCESS ID                                  6738
+ ***** **    ** ** **   PROGRAM PROCESS ID                                 20650
   **** **  *******  **  PROGRAM STOPPED IN /Users/seri/Documents/cp2k-practice/0
                                            1_basics/h2o_geometry_analysis

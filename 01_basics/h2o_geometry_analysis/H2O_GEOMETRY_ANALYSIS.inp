@@ -46,7 +46,7 @@
 
     &PRINT
       &STRUCTURE_DATA
-        DISTANCE 1 2
+	DISTANCE 1 2
         DISTANCE 1 3
         ANGLE 2 1 3
       &END STRUCTURE_DATA
